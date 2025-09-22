@@ -20,6 +20,7 @@ masukkan command
 yay -S mongodb44-bin
 ```
 **akan ada notifikasi**
+
 Package cleanbuild?
 A
 
@@ -40,6 +41,7 @@ lalu masukkan command
 yay -S mongodb44-bin
 ```
 **akan ada notifikasi**
+
 Package cleanbuild?
 A
 
@@ -71,13 +73,15 @@ masukkan command
 yay -S mongosh
 ```
 **akan ada notifikasi**
+
 Package cleanbuild?
 A
 
 Diffs to show?
 N
 
-lalu ikuti semua prosesnya sampai selesai
+lalu ikuti semua prosesnya sampai selesai.
+
 
 masukkan command 
 ```
