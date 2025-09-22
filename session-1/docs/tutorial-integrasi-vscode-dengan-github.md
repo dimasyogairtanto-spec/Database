@@ -1,6 +1,6 @@
 # TUTORIAL INTEGRASI VSCODE DENGAN GITHUB
 # 1. Langkah pertama masuk ke terminal 
-ketik ssh-keygen 
+masukkan command
 ```
 ssh-keygen -t ed25519 -C "emailkamu@gamail.com"
 ```
@@ -23,7 +23,8 @@ cat ~/.ssh/id_ed25519.pub
 lalu enter
 
 maka akan keluar SSH key
-**contoh:** ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICUIV0QNqRY6bvnzjs/xT2WDqWThvfsx3G3CxarC4yPW emailkamu@gmail.com
+**contoh:** 
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICUIV0QNqRY6bvnzjs/xT2WDqWThvfsx3G3CxarC4yPW emailkamu@gmail.com
 
 
 copy kode tersebut
