@@ -18,7 +18,7 @@ sudo systemctl start mariadb
 ```
 lalu masukkan command
 ```
-systemctl status mongod
+systemctl status mongodb
 ```
 jika tampilanya seperti ini maka proses installasi sudah selesai
 
