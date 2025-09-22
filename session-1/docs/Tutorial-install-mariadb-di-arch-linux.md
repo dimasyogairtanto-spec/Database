@@ -1,10 +1,12 @@
 # TUTORIAL INSTALL MARIADB DI ARCH
 ## 1. Masuk ke terminal
-masukkan
+masukkan command
 ```
 sudo pacman -S mariadb
 ```
-jika sudah selesai installasi masukkan command
+lakukan semua proses instalasi
+
+jika sudah selesai instalasi masukkan command
 ```
 sudo mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
 ```
