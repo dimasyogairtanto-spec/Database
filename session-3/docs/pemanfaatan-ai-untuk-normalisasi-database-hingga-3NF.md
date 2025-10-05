@@ -148,9 +148,17 @@ CREATE TABLE buku (
 Setelah melalui proses normalisasi hingga bentuk Third Normal Form (3NF), tabel buku berhasil dipecah menjadi beberapa tabel terpisah yang merepresentasikan entitas berbeda, yaitu buku, pengarang, dan penerbit. Proses ini menghilangkan redundansi data, meningkatkan integritas, dan mempermudah pengelolaan informasi dalam database. Tabel buku kini hanya menyimpan informasi yang relevan secara langsung, sementara detail pengarang dan penerbit disimpan di tabel tersendiri dan dihubungkan melalui foreign key. Dengan struktur ini, database menjadi lebih efisien, konsisten, dan siap untuk dikembangkan lebih lanjut sesuai kebutuhan sistem informasi.
 
 
-### Dimas Yoga Irtanto 3C
 
-<img width="900" height="1300" alt="image" src="https://github.com/user-attachments/assets/e4d2907b-8f0b-4d11-a07a-9e05d31348b2" />
+
+
+
+
+
+
+
+#### Dimas Yoga Irtanto 3C
+
+<img width="900" height="900" alt="image" src="https://github.com/user-attachments/assets/e4d2907b-8f0b-4d11-a07a-9e05d31348b2" />
 
 
 
