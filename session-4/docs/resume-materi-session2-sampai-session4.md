@@ -67,6 +67,23 @@ COLLATE utf8mb4_general_ci; :**
   **SELECT * FROM buku; :** Perintah ini menampilkan daftar lengkap koleksi buku beserta detailnya.
 
 **SELECT judul, penulis FROM buku; :** Dengan query ini, hasil tampilan akan lebih ringkas dan mudah dibaca.
+
+**UPDATE buku SET penulis = 'Joko Purnomo' WHERE id_buku = 1; :**
+
+  Perintah di atas akan mengubah kolom penulis hanya untuk baris dengan id_buku = 1. 
+
+**UPDATE buku SET penulis = 'Anonim' WHERE tahun_terbit < 2000; :**
+
+  Perintah di atas akan mengubah semua baris yang memenuhi kondisi tersebut.
+
+**DELETE FROM buku WHERE id_buku = 5; :** 
+
+  Query di atas akan menghapus hanya baris dengan id_buku bernilai 5. Baris lain tidak terpengaruh.
+
+
+  
+
+
   
 
   
