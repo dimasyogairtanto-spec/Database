@@ -29,4 +29,50 @@ kumpulan data-data
 **auto_increment**: 
   fitur database yang secara otomatis menghasilkan nilai unik (biasanya berupa angka) untuk sebuah kolom setiap kali baris baru ditambahkan
 
+**CREATE DATABASE perpustakaan; :** 
 
+  Dengan perintah ini, MariaDB akan membuat database kosong bernama perpustakaan
+  
+
+**USE peerpustakaan; :** 
+
+  Perintah ini  memberitahu MariaDB bahwa semua instruksi berikutnya akan dijalankan di database perpustakaan.
+
+**CREATE DATABASE perpus
+DEFAULT CHARACTER SET utf8mb4
+COLLATE utf8mb4_general_ci; :** 
+
+  Dengan tambahan ini, semua teks dalam database akan menggunakan pengkodean UTF-8. Anda tidak akan kesulitan menyimpan judul buku berbahasa Jepang atau Arab.
+
+**SHOW DATABASES; :** Perintah ini akan menampilkan daftar semua database dalam server MariaDB. 
+
+**SELECT DATABASE(); :** Jika hasilnya adalah perpustakaan maka anda bekerja di database yang benar (sesuai dengan use)
+
+**CREATE TABLE buku (
+    id_buku INT PRIMARY KEY AUTO_INCREMENT,
+    judul VARCHAR(150) NOT NULL,
+    penulis VARCHAR(100),
+    tahun_terbit YEAR,
+    isbn VARCHAR(20) UNIQUE
+); :** 
+
+  Dengan perintah ini, sistem membuat tabel kosong bernama buku. Tabel sudah siap menampung data baru. 
+
+**INSERT INTO buku (judul, penulis, tahun_terbit, isbn) VALUES
+('Dasar-Dasar Basis Data', 'Ani Rahmawati', 2020, '9786021112223')INSERT INTO buku (judul, penulis, tahun_terbit, isbn) VALUES
+('Dasar-Dasar Basis Data', 'Ani Rahmawati', 2020, '9786021112223'); :**
+
+  Perintah ini menambahkan baris data ke tabel buku. Setiap entri memiliki judul, penulis, tahun terbit, dan ISBN. Dengan format ini, tabel siap menampung lebih banyak data.
+
+  **SELECT * FROM buku; :** Perintah ini menampilkan daftar lengkap koleksi buku beserta detailnya.
+
+**SELECT judul, penulis FROM buku; :** Dengan query ini, hasil tampilan akan lebih ringkas dan mudah dibaca.
+  
+
+  
+
+
+
+
+
+  
